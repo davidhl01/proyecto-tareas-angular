@@ -1,0 +1,86 @@
+#mostrar{
+	font-size: 20px;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	text-shadow: -1px -1px 1px #395064, 1px 1px 1px #395064, -1px 1px 1px #395064, 1px -1px 1px #395064;
+	width: 50%;
+  height: 150px;
+	padding: 30px;
+	border-radius: 20px;
+	background-color: #ed99a7;
+	border: 2px solid #fff;
+	box-shadow: 10px 5px 5px #2e3a49;
+  margin-bottom: 10px;
+}
+
+#botones{
+  font-size: 20px;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	text-shadow: -1px -1px 1px #395064, 1px 1px 1px #395064, -1px 1px 1px #395064, 1px -1px 1px #395064;
+	width: 50%;
+  height: 110px;
+	padding: 30px;
+	border-radius: 20px;
+	background-color: #ed99a7;
+	border: 2px solid #fff;
+	box-shadow: 10px 5px 5px #2e3a49;
+}
+
+#botones button{
+  font-family: 'Baloo Tamma 2', cursive;
+	background: #486077;
+	border: 2px solid black;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#botones button:hover{
+  border: 2px solid #fff;
+}
+
+#mostrar button{
+	font-family: 'Baloo Tamma 2', cursive;
+	background: #486077;
+	border: 2px solid black;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#mostrar button:hover {
+	border: 2px solid #fff;
+}
+
+ol{
+	list-style: none;
+	margin: auto;
+}
+
+ol li{
+	margin-bottom: 10px;
+}
+
+strong{
+	text-shadow: -1px -1px 1px #395064, 1px 1px 1px #395064, -1px 1px 1px #395064, 1px -1px 1px #395064;
+}
+
+.completada {
+    text-decoration: line-through;
+}
+
+#completado{
+	margin-right: 20px;
+}
+
+#aumentar{
+	margin-right: 20px;
+	margin-left: 20px;
+}

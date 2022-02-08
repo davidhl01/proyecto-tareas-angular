@@ -1,0 +1,24 @@
+
+<div id="ProyectoVue">
+    <div id="introducir">
+            <label for="Introducetarea"><h3>Introduce una tarea</h3></label>
+            <input type="text" [(ngModel)]="nombre" placeholder="Introduce una tarea..." (keyup.enter)="anadirtarea()">
+            &nbsp;&nbsp;
+            <label for="descripcion"></label>
+            <input type="text" [(ngModel)]="descripcion" placeholder="Añade una descripción..." (keyup.enter)="anadirtarea()">
+  
+            <!-- Al pulsar enter se añadirá la tarea sin necesidad de pulsar el boton añadir, pero cuando estemos 
+            dentro de alguno de los campos introduce tarea o añade descripción -->
+  
+            &nbsp;&nbsp;
+            <label for="prioridad">Prioridad:</label>
+            &nbsp;
+            <select [(ngModel)]="prioridad" required>
+                <option disabled value="">------</option>
+                <option>1 <!--Alta--></option>
+                <option>2 <!--Media--></option>
+                <option>3 <!--Baja--></option>
+            </select>
+            &nbsp;&nbsp;
+            <button [disabled] ="prioridad=='' || nombre==''" (click)="anadirtarea()" id="tarea">Añadir tarea</button>
+    </div>

@@ -1,0 +1,30 @@
+header{
+	text-align: center;
+	color: #ffffff;
+	margin: auto;
+	height: 80px;
+	width: 50%;
+	background: #bcc4d4;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	-webkit-text-fill-color: #ffffff;
+	text-shadow: -2px -2px 1px #395064, 2px 2px 1px #395064, -2px 2px 1px #395064, 2px -2px 1px #395064;
+	border: 2px solid white;
+	box-shadow: 10px 5px 5px #2e3a49;
+}
+
+#img-izquierda{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 12px;
+}
+
+#img-derecha{
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 12px;
+}

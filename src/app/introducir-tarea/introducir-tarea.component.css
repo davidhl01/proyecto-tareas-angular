@@ -1,0 +1,42 @@
+#introducir{
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	padding: 30px;
+	width: 50%;
+	height: 120px;
+	border-radius: 20px;
+	border: 2px solid #fff;
+	background-color: #395064;
+	margin-bottom: 10px;
+	box-shadow: 10px 5px 5px #2e3a49;
+}
+
+#introducir input[type=text] {
+	border: 2px solid black;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 25%;
+	border-radius: 10px;
+	font-family: 'Baloo Tamma 2', cursive;
+}
+
+select {
+	border-radius: 10px;
+	font-family: 'Baloo Tamma 2', cursive;
+}
+
+#introducir button {
+	background: #ed99a7;
+	border: 2px solid black;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 10px;
+	font-family: 'Baloo Tamma 2', cursive;
+}
+
+#introducir button:hover {
+	border: 2px solid #fff;
+}

@@ -1,0 +1,34 @@
+<div id="mostrar" *ngFor="let tarea of listadetareas.listadetareas; let i = index" [ngClass]="{completada:tarea.estadotarea}">
+    <ol>
+        <li>
+            <strong>Nombre de la tarea:</strong> {{tarea.nombre}}
+            &nbsp;
+            <strong>Descripción:</strong> {{tarea.descripcion}}
+            &nbsp;
+            <strong>Estado:</strong> {{tarea.estadotarea}} 
+            <br>
+            <strong>Prioridad:</strong> {{tarea.prioridad}}
+            &nbsp;
+            <strong>Fecha:</strong> {{tarea.fecha}}
+            <br><br>
+            <button (click)="listadetareas.tareaCompletada(i)" id="completado">Marcar como completada</button>
+            <button (click)="listadetareas.borrartarea(i)">Borrar</button>
+            <button (click)="listadetareas.aumentarlaPrioridad(i)" id="aumentar">Aumentar prioridad</button>
+            <button (click)="listadetareas.disminuirlaPrioridad(i)">Disminuir prioridad</button>
+        </li>
+    </ol>
+    <br> 
+</div>
+<div id="botones">
+      <button (click)="listadetareas.borrarCompletadas()">Borrar completadas</button>
+      &nbsp;
+      <button (click)="listadetareas.mostrarCompletadas()">Mostrar completadas</button>
+      &nbsp;
+      <button (click)="listadetareas.mostrarNoCompletadas()">Mostrar no completadas</button>
+      &nbsp;
+      <button (click)="listadetareas.mostrarTodas()">Mostrar todas</button>
+      <br><br>
+      <span>Tienes {{listadetareas.listadetareas.length}} tareas, de las cuales {{listadetareas.nocompletadas()}} sin completar</span>
+</div>
+
+
